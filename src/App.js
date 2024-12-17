@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Chai from './Chai'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Chai/>
+    
+    </>
   );
 }
 
 export default App;
+
+// chai.js is component nd function is also component
+// function component name is always in capital letter like [ function Chai(){}]
+// also use a capital letter in file name [ Chai.js]
+// if there is html in program put file name as[Chai.jsx]
